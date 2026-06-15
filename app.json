@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "AirDrop AI Mesh Node",
+    "slug": "airdrop-ai-mesh-node",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourteam.airdropmesh",
+      "minimumOSVersion": "17.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0A"
+      },
+      "package": "com.yourteam.airdropmesh",
+      "minSdkVersion": 29
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29,
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35
+          },
+          "ios": {
+            "deploymentTarget": "17.0"
+          }
+        }
+      ],
+      "@qvac/sdk/expo-plugin"
+    ],
+    "extra": {
+      "hackathon": "QVAC Hackathon I - Unleash Edge AI",
+      "track": "Mobile",
+      "sdkVersion": "0.14.1"
+    }
+  }
+}
