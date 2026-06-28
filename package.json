@@ -1,7 +1,7 @@
 {
   "name": "airdrop-ai-mesh-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -13,7 +13,7 @@
     "expo-status-bar": "~2.2.0",
     "react": "19.0.0",
     "react-native": "0.79.0",
-    "@qvac/sdk": "latest",
+    "@qvac/sdk": "0.14.1",
     "react-native-bare-kit": "^0.11.5",
     "expo-file-system": "^19.0.0",
     "expo-build-properties": "^0.15.0",
