@@ -33,7 +33,7 @@
         {
           "android": {
             "minSdkVersion": 29,
-            "compileSdkVersion": 35,
+            "compileSdkVersion": 36,
             "targetSdkVersion": 35
           },
           "ios": {
