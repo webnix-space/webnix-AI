@@ -44,9 +44,10 @@
       "@qvac/sdk/expo-plugin"
     ],
     "extra": {
-      "hackathon": "QVAC Hackathon I - Unleash Edge AI",
-      "track": "Mobile",
-      "sdkVersion": "0.14.1"
-    }
-  }
+  "eas": {
+    "projectId": "e2abc3a7-0517-463e-9b6f-cb17f4870dd4"
+  },
+  "hackathon": "QVAC Hackathon I - Unleash Edge AI",
+  "track": "Mobile",
+  "sdkVersion": "0.14.1"
 }
