@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           mkdir -p assets
-          apt-get install -y imagemagick
+          sudo apt-get install -y imagemagick
           convert -size 1024x1024 xc:#0A0A0A assets/icon.png
           convert -size 1024x1024 xc:#0A0A0A assets/adaptive-icon.png
           convert -size 1242x2436 xc:#0A0A0A assets/splash-icon.png
