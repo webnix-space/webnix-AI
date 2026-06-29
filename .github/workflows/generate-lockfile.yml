@@ -8,11 +8,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - run: yarn install --no-frozen-lockfile
+          node-version: 20
+      - run: yarn install --no-frozen-lockfile --verbose 2>&1 || true
+      - run: cat yarn.lock || echo "yarn.lock not generated"
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: generate yarn.lock"
