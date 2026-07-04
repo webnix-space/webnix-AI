@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@qvac/sdk": "^0.13.3",
+    "@qvac/sdk": "^0.14.1",
     "expo": "~56.0.12",
     "expo-build-properties": "^56.0.19",
     "expo-dev-client": "~56.0.20",
