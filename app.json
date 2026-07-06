@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Webnix AI",
-    "slug": "airdropai",
+    "slug": "webnix-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourteam.airdropmesh",
+      "bundleIdentifier": "com.webnix.ai",
       "minimumOSVersion": "17.0"
     },
     "android": {
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0A0A"
       },
-      "package": "com.yourteam.airdropmesh",
+      "package": "com.webnix.ai",
       "minSdkVersion": 29
     },
     "plugins": [
