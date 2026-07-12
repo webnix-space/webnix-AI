@@ -23,6 +23,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0A0A"
+        "permissions": ["android.permission.RECORD_AUDIO"]
       },
       "package": "com.webnix.ai",
       "minSdkVersion": 29
