@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Webnix AI",
+    "slug": "airdropai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.webnix.ai",
+      "minimumOSVersion": "17.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0A"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.webnix.ai",
+      "minSdkVersion": 29
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29,
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 35,
+            "enableProguardInReleaseBuilds": false
+          },
+          "ios": {
+            "deploymentTarget": "17.0"
+          }
+        }
+      ],
+      "@qvac/sdk/expo-plugin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e2abc3a7-0517-463e-9b6f-cb17f4870dd4"
+      }
+    }
+  }
+}
