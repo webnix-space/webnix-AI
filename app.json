@@ -36,6 +36,7 @@
             "minSdkVersion": 29,
             "compileSdkVersion": 36,
             "targetSdkVersion": 35
+            "enableProguardInReleaseBuilds": false
           },
           "ios": {
             "deploymentTarget": "17.0"
