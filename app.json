@@ -33,8 +33,7 @@
           "android": {
             "minSdkVersion": 29,
             "compileSdkVersion": 36,
-            "targetSdkVersion": 35,
-            "extraProguardRules": "-dontwarn expo.modules.kotlin.types.AnyTypeProvider\n-dontwarn expo.modules.kotlin.types.LazyKType\n-keep class expo.modules.kotlin.types.** { *; }\n-keep class expo.modules.audio.** { *; }"
+            "targetSdkVersion": 35
           },
           "ios": {
             "deploymentTarget": "17.0"
