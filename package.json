@@ -4,17 +4,21 @@
   "main": "index.js",
   "dependencies": {
     "@qvac/sdk": "^0.16.0",
-    "expo": "~56.0.12",
-    "expo-build-properties": "^56.0.19",
-    "expo-dev-client": "~56.0.20",
+    "expo": "~56.0.19",
+    "expo-build-properties": "~56.0.25",
+    "expo-dev-client": "~56.0.24",
     "expo-device": "^56.0.4",
-    "expo-file-system": "^56.0.8",
+    "expo-file-system": "~56.0.9",
     "expo-document-picker": "~56.0.4",
+    "expo-splash-screen": "~56.0.10",
     "expo-status-bar": "~56.0.4",
     "react": "19.2.3",
     "react-native": "0.85.3",
     "react-native-bare-kit": "^0.14.3",
     "@react-native-async-storage/async-storage": "^2.1.2"
+  },
+  "devDependencies": {
+    "bare-pack": "^1.5.1"
   },
   "scripts": {
     "start": "expo start",
