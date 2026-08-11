@@ -6,16 +6,10 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0A0A0A"
-    },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.webnix.ai",
-      "minimumOSVersion": "17.0"
+      "bundleIdentifier": "com.webnix.ai"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,8 +17,7 @@
         "backgroundColor": "#0A0A0A"
       },
       "permissions": ["android.permission.RECORD_AUDIO"],
-      "package": "com.webnix.ai",
-      "minSdkVersion": 29
+      "package": "com.webnix.ai"
     },
     "plugins": [
       [
@@ -38,6 +31,14 @@
           "ios": {
             "deploymentTarget": "17.0"
           }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0A0A0A"
         }
       ],
       "@qvac/sdk/expo-plugin"
