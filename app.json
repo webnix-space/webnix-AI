@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Webnix AI",
-    "slug": "airdropai",
+    "slug": "webnix-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -45,7 +45,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "e2abc3a7-0517-463e-9b6f-cb17f4870dd4"
+        "projectId": "21cc35b8-9bf7-46d9-9be2-9c0f645ea83f"
       }
     }
   }
