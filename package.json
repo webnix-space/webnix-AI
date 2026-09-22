@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@qvac/sdk": "^0.16.0",
+    "@qvac/sdk": "0.19.1",
+    "@qvac/inference": "0.19.1",
     "expo": "~56.0.19",
     "expo-build-properties": "~56.0.25",
     "expo-dev-client": "~56.0.24",
@@ -18,7 +19,7 @@
     "@react-native-async-storage/async-storage": "^2.1.2"
   },
   "devDependencies": {
-    "bare-pack": "^1.5.1"
+    "bare-pack": "^2.0.1"
   },
   "scripts": {
     "start": "expo start",
